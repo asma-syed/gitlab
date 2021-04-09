@@ -1,0 +1,6 @@
+1.SELECT*FROM city;
+  SELECT*FROM city WHERE CountryCode in ("USA");
+  
+2. SELECT AVG (Population) FROM city WHERE CountryCode in ("ARG");
+   SELECT AVG (LifeExpectancy) FROM country WHERE code='ARG';
+
