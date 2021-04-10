@@ -1,0 +1,5 @@
+1.SELECT COUNT(District) FROM city WHERE CountryCode="USA";
+2.SELECT SUM(Population), AVG(LifeExpectancy) FROM country WHERE Code="ARG";
+6.SELECT*FROM city WHERE district LIKE '%F%' LIMIT 25;
+7.SELECT COUNT(District) FROM city WHERE CountryCode="CHIN";
+11.SELECT*FROM city WHERE CountryCode="JPN" ORDER BY population DESC LIMIT 5;
